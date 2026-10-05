@@ -1,0 +1,35 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    function isVerified() {
+      return request.auth != null && request.auth.token.email_verified == true;
+    }
+
+    match /users/{userId} {
+      allow read: if isOwner(userId) && isVerified();
+      allow create: if isOwner(userId) && isVerified()
+        && request.resource.data.keys().hasAll([
+          'email', 'displayName', 'createdAt', 'updatedAt', 'dailyCalorieGoal'
+        ]);
+      allow update: if isOwner(userId) && isVerified();
+    }
+
+    match /calorie_entries/{entryId} {
+      allow read: if isVerified() && resource.data.userId == request.auth.uid;
+      allow create: if isVerified()
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.keys().hasAll(['userId', 'description', 'calories', 'date', 'createdAt']);
+      allow update, delete: if isVerified() && resource.data.userId == request.auth.uid;
+    }
+
+    match /exercise_plans/{planId} {
+      allow read: if isVerified() && resource.data.userId == request.auth.uid;
+      allow create, update, delete: if isVerified() && resource.data.userId == request.auth.uid;
+    }
+  }
+}

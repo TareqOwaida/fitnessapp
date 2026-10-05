@@ -1,0 +1,304 @@
+{
+  "@@locale": "en",
+  "appTitle": "Fitenne",
+  "appTagline": "Your AI fitness companion",
+  "loginTagline": "Train smarter. Eat better. Live stronger.",
+  "welcomeBack": "Welcome back",
+  "signInSubtitle": "Sign in to continue your fitness journey",
+  "emailAddress": "Email address",
+  "password": "Password",
+  "enterYourEmail": "Enter your email",
+  "enterYourPassword": "Enter your password",
+  "signIn": "Sign In",
+  "orDivider": "or",
+  "continueWithGoogle": "Continue with Google",
+  "createAnAccount": "Create an account",
+  "calories": "Calories",
+  "workouts": "Workouts",
+  "aiCoach": "AI Coach",
+  "joinFitenne": "Join Fitenne",
+  "signupSubtitle": "Create your account and start tracking today",
+  "fullName": "Full name",
+  "atLeast6Characters": "At least 6 characters",
+  "enterYourName": "Enter your name",
+  "passwordMin6": "Password must be at least 6 characters",
+  "createAccount": "Create Account",
+  "alreadyHaveAccount": "Already have an account? Sign in",
+  "checkYourInbox": "Check your inbox",
+  "verificationSentTo": "We sent a verification link to",
+  "verifyEmailBeforeSignIn": "Verify your email before signing in to unlock your full fitness experience.",
+  "signInToResend": "Sign in once with your password to resend the verification email.",
+  "verificationEmailSent": "Verification email sent. Check your inbox.",
+  "resendVerificationEmail": "Resend verification email",
+  "backToSignIn": "Back to sign in",
+  "insights": "Insights",
+  "profile": "Profile",
+  "ai": "AI",
+  "todaysCalories": "Today's Calories",
+  "mealsToday": "Meals today",
+  "logged": "Logged",
+  "logAMeal": "Log a meal",
+  "logAMealSubtitle": "Type, speak, or snap a photo — AI estimates calories",
+  "loadingYourMeals": "Loading your meals...",
+  "noMealsLoggedYet": "No meals logged yet",
+  "noMealsLoggedHint": "Type, speak, or photograph what you ate and AI will estimate the calories for you.",
+  "dailyGoalKcal": "Daily goal: {goal} kcal",
+  "@dailyGoalKcal": {
+    "placeholders": {
+      "goal": {"type": "int"}
+    }
+  },
+  "couldNotLoadMeals": "Could not load meals: {error}",
+  "@couldNotLoadMeals": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "voiceInputFailed": "Voice input failed. Try again or type your meal.",
+  "voiceInputRestartLong": "Voice input needs a full app restart. Stop the app, then run flutter run again.",
+  "voiceInputUnavailable": "Voice input is not available on this device.",
+  "voiceInputCouldNotStart": "Voice input could not start. Try typing your meal instead.",
+  "microphoneDenied": "Microphone permission denied or voice input unavailable.",
+  "couldNotLoadImage": "Could not load image: {error}",
+  "@couldNotLoadImage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "couldNotAnalyzeFood": "Could not analyze food: {error}",
+  "@couldNotAnalyzeFood": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "mealFromPhoto": "Meal from photo",
+  "whatDidYouEat": "What did you eat?",
+  "listeningDescribeMeal": "Listening... describe your meal",
+  "mealHintExample": "e.g. 2 eggs, toast, and black coffee",
+  "camera": "Camera",
+  "gallery": "Gallery",
+  "stop": "Stop",
+  "voice": "Voice",
+  "analyzePhotoAndLog": "Analyze Photo & Log",
+  "analyzeAndLog": "Analyze & Log",
+  "recognizingFoodInPhoto": "Recognizing food in photo...",
+  "analyzingWithAi": "Analyzing with AI...",
+  "kcal": "kcal",
+  "overDailyGoal": "Over daily goal",
+  "onTrack": "On track",
+  "totalOfGoalKcal": "{total} of {goal} kcal",
+  "@totalOfGoalKcal": {
+    "placeholders": {
+      "total": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "remaining": "Remaining",
+  "goal": "Goal",
+  "meal": "Meal",
+  "mealDetected": "Meal detected",
+  "reviewBeforeAdding": "Review before adding to today's log",
+  "estimatedCalories": "ESTIMATED CALORIES",
+  "notNow": "Not now",
+  "addMeal": "Add meal",
+  "gymTrainingPlan": "Gym training plan",
+  "homeTrainingPlan": "Home training plan",
+  "loadingWorkouts": "Loading workouts...",
+  "noWorkoutsYet": "No workouts yet",
+  "noWorkoutsHint": "Your personalized workout plan will appear here once it's ready.",
+  "gym": "Gym",
+  "home": "Home",
+  "today": "TODAY",
+  "exercisesCountMinutes": "{count} exercises · {minutes} min",
+  "@exercisesCountMinutes": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+  "exercises": "Exercises",
+  "duration": "Duration",
+  "intensity": "Intensity",
+  "high": "High",
+  "med": "Med",
+  "minutesShort": "{minutes}m",
+  "@minutesShort": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "thisWeek": "This week",
+  "yourPlan": "Your plan",
+  "sessions": "SESSIONS",
+  "workoutDaySummary": "{day} · {minutes} min · {count} exercises",
+  "@workoutDaySummary": {
+    "placeholders": {
+      "day": {"type": "String"},
+      "minutes": {"type": "int"},
+      "count": {"type": "int"}
+    }
+  },
+  "setsCount": "{count} sets",
+  "@setsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "restSeconds": "{seconds}s rest",
+  "@restSeconds": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "trackProgress": "Track your progress over time",
+  "nutritionTrends": "Your nutrition trends",
+  "loadingInsights": "Loading insights...",
+  "noDataYet": "No data yet",
+  "noDataHint": "Log meals on the Calories tab to build your nutrition history and see trends.",
+  "lastNDays": "Last {days} days",
+  "@lastNDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "kcalAvg": "kcal avg",
+  "dailyBreakdown": "Daily breakdown",
+  "days": "DAYS",
+  "mealsLoggedCount": "{count, plural, =1{1 meal logged} other{{count} meals logged}}",
+  "@mealsLoggedCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "caloriesKcal": "{calories} kcal",
+  "@caloriesKcal": {
+    "placeholders": {
+      "calories": {"type": "int"}
+    }
+  },
+  "loadingProfile": "Loading profile...",
+  "settingUpProfile": "Setting up your profile...",
+  "fitenneUser": "Fitenne User",
+  "yourProfile": "Your profile",
+  "dailyGoal": "Daily goal",
+  "workout": "Workout",
+  "editProfile": "Edit profile",
+  "displayName": "Display name",
+  "dailyCalorieGoal": "Daily calorie goal",
+  "preferredWorkoutLocation": "Preferred workout location",
+  "enterDailyGoalRange": "Enter a daily goal between 500 and 10,000",
+  "profileSaved": "Profile saved successfully",
+  "couldNotSaveProfile": "Could not save profile: {error}",
+  "@couldNotSaveProfile": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "saveChanges": "Save changes",
+  "signOut": "Sign out",
+  "any": "Any",
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "welcomeToFitenne": "Welcome to Fitenne",
+  "personalizeExperience": "Let's personalize your experience",
+  "aboutYou": "About you",
+  "calorieGoalStep": "Calorie goal",
+  "yourWorkouts": "Your workouts",
+  "aboutYouHint": "Tell us a bit about yourself so we can tailor your plan.",
+  "age": "Age",
+  "years": "years",
+  "height": "Height",
+  "cm": "cm",
+  "weight": "Weight",
+  "kg": "kg",
+  "calorieGoalQuestion": "How many calories do you want to consume per day?",
+  "presetKcal": "{value} kcal",
+  "@presetKcal": {
+    "placeholders": {
+      "value": {"type": "int"}
+    }
+  },
+  "exerciseTypesQuestion": "What types of exercises are you interested in?",
+  "workoutLocationQuestion": "Where do you prefer to work out?",
+  "strength": "Strength",
+  "cardio": "Cardio",
+  "hiit": "HIIT",
+  "flexibility": "Flexibility",
+  "upperBody": "Upper body",
+  "lowerBody": "Lower body",
+  "enterValidAge": "Enter a valid age (13–120)",
+  "enterValidHeight": "Enter height in cm (100–250)",
+  "enterValidWeight": "Enter weight in kg (30–300)",
+  "enterDailyGoalRangeKcal": "Enter a daily goal between 500 and 10,000 kcal",
+  "selectExerciseType": "Select at least one exercise type",
+  "couldNotSavePreferences": "Could not save your preferences. Please try again.",
+  "back": "Back",
+  "continueButton": "Continue",
+  "getStarted": "Get started",
+  "saving": "Saving...",
+  "noInternetConnection": "No internet connection",
+  "checkWifiOrMobile": "Check your Wi‑Fi or mobile data.",
+  "loadingYourCoach": "Loading your coach...",
+  "personalizedFitnessGuidance": "Personalized fitness guidance",
+  "coachGreetingWithProfile": "Hey {name}! I've loaded your profile — ask me about workouts, meal ideas, your {goal} kcal goal, or recovery tips.",
+  "@coachGreetingWithProfile": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "goal": {"type": "int"}
+    }
+  },
+  "coachGreetingDefault": "Hey! I'm your AI fitness coach. Ask me about workouts, meal ideas, calorie goals, or recovery tips.",
+  "promptHighProteinBreakfast": "Suggest a high-protein breakfast for my goal",
+  "promptWorkoutPlan": "Plan a 30-min {location} workout for me",
+  "@promptWorkoutPlan": {
+    "placeholders": {
+      "location": {"type": "String"}
+    }
+  },
+  "promptCalorieGoal": "How am I doing on my {goal} kcal goal?",
+  "@promptCalorieGoal": {
+    "placeholders": {
+      "goal": {"type": "int"}
+    }
+  },
+  "promptRecoveryTips": "Best post-workout recovery tips for me",
+  "coach": "Coach",
+  "coachIsThinking": "Coach is thinking...",
+  "askYourCoach": "Ask your fitness coach...",
+  "noResponse": "No response.",
+  "coachError": "Sorry, I could not respond right now. ({error})",
+  "@coachError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "authVerifyEmailBeforeSignIn": "Verify your email before signing in.",
+  "authEmailAlreadyVerified": "Your email is verified. Sign in to continue.",
+  "authInvalidEmail": "Enter a valid email address.",
+  "authIncorrectCredentials": "Incorrect email or password.",
+  "authEmailInUse": "An account already exists for this email.",
+  "authWeakPassword": "Password must be at least 6 characters.",
+  "authFailed": "Authentication failed.",
+  "authAccountExistsDifferentCredential": "An account already exists with this email using a different sign-in method.",
+  "authGoogleNotConfigured": "Google Sign-In is not configured yet. Enable Google in Firebase Authentication, add your Android SHA-1 fingerprint, then re-download google-services.json.",
+  "authAccountNotFound": "Account not found.",
+  "authEmailVerifiedCanSignIn": "Email is already verified. You can sign in.",
+  "estimatedByAi": "Estimated by AI",
+  "aiParseFallback": "Could not parse AI response. Default estimate applied.",
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "saturday": "Saturday",
+  "sunday": "Sunday",
+  "breakfast": "Breakfast",
+  "lunch": "Lunch",
+  "dinner": "Dinner",
+  "snack": "Snack",
+  "mealTypeBreakfast": "Breakfast",
+  "mealTypeLunch": "Lunch",
+  "mealTypeDinner": "Dinner",
+  "mealTypeSnack": "Snack"
+}
